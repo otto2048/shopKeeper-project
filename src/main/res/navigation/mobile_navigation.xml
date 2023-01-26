@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_viewList"
+            app:destination="@id/viewList"
+            app:popUpTo="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_home_to_myLists"
+            app:destination="@id/myLists"
+            app:popUpTo="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_my_shops"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.myshops.MyShopsFragment"
+        android:label="My shops"
+        tools:layout="@layout/my_shops_fragment">
+        <action
+            android:id="@+id/action_navigation_my_shops_to_myLists"
+            app:destination="@id/myLists" />
+    </fragment>
+    <fragment
+        android:id="@+id/myLists"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.mylists.MyListsFragment"
+        android:label="@string/title_my_lists"
+        tools:layout="@layout/my_lists_fragment">
+        <argument android:name="shopInfo" />
+        <action
+            android:id="@+id/action_myLists_to_viewList"
+            app:destination="@id/viewList" />
+        <action
+            android:id="@+id/action_myLists_to_shopFavouritesFragment"
+            app:destination="@id/shopFavouritesFragment" />
+        <action
+            android:id="@+id/action_myLists_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewList"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.viewlist.ViewListFragment"
+        android:label="@string/title_view_list"
+        tools:layout="@layout/view_list_fragment" />
+    <fragment
+        android:id="@+id/shopFavouritesFragment"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.shopfavourites.ShopFavouritesFragment"
+        android:label="@string/title_my_favourites"
+        tools:layout="@layout/shop_favourites_fragment" />
+    <fragment
+        android:id="@+id/navigation_user_info"
+        android:name="uk.ac.abertay.cmp309.shopkeeper.ui.userinfo.UserInfoFragment"
+        android:label="User information"
+        tools:layout="@layout/fragment_user_info" />
+</navigation>

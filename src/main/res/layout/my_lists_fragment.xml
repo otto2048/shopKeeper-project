@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listsFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.mylists.MyListsFragment">
+
+    <ListView
+        android:id="@+id/listLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clipToPadding="false"/>
+
+    <LinearLayout
+        android:id="@+id/actionButtonsForList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favouritesABForList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:contentDescription="@string/content_description_select_from_favourites"
+            app:srcCompat="@drawable/ic_baseline_star_border_24"
+            app:tint="@color/black"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/createABForList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:contentDescription="@string/content_description_create_list"
+            app:backgroundTint="@color/confirmation"
+            app:srcCompat="@drawable/ic_baseline_edit_24"
+            app:tint="@color/black"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/viewOnMapAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="@string/content_description_view_on_map"
+            android:src="@drawable/ic_baseline_map_24"
+            app:backgroundTint="@color/primaryLightColor"
+            app:tint="@color/black"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

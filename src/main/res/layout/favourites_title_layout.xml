@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/list_view_element_start_end_padding"
+    android:paddingVertical="@dimen/list_view_element_top_bottom_padding">
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Theme.ShopKeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_favourites"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/noFavouritesTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_favourites_message"
+        android:textSize="20sp" />
+</LinearLayout>

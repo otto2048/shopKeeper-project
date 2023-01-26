@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/createItemLL"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/list_view_element_start_end_padding"
+    android:paddingVertical="@dimen/list_view_element_top_bottom_padding">
+
+    <TextView
+        android:id="@+id/inputTitleTV"
+        style="@style/Theme.ShopKeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_input_item_details"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/itemNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_enter_item_name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/itemNotesET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_enter_item_notes"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/itemPriceET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_enter_item_price"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:nextFocusDown="@id/itemAddBtn"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/itemAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginEnd="8dp"
+        android:drawableEnd="@android:drawable/ic_menu_add"
+        android:onClick="addItem"
+        android:paddingRight="8dp"
+        android:text="@string/text_add"
+        app:iconPadding="0dp" />
+
+</LinearLayout>

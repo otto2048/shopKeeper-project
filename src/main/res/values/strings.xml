@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">shopKeeper</string>
+    <string name="title_activity_main2">ShopKeeper</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_create_list">Create a list</string>
+    <string name="title_map">Map</string>
+    <string name="placeholder_text">Failed to load resource</string>
+    <string name="hint_enter_item_name">Enter item name</string>
+    <string name="hint_enter_item_notes">Enter item notes (optional)</string>
+    <string name="hint_enter_item_price">Enter item price (optional)</string>
+    <string name="text_add">Add</string>
+    <string name="text_input_item_details">Add a new item:</string>
+    <string name="text_input_list_details">Input list details:</string>
+    <string name="hint_enter_list_notes">Enter list notes (optional)</string>
+    <string name="hint_enter_list_name">Enter list name</string>
+    <string name="title_my_shops">My shops</string>
+    <string name="title_my_lists">My lists</string>
+    <string name="title_view_list">View list</string>
+    <string name="title_my_favourites">My favourites</string>
+    <string name="switch_text_favourite">Favourite</string>
+    <string name="content_description_search_for_items">Search for items</string>
+    <string name="content_description_select_from_favourites">Select from favourites</string>
+    <string name="content_description_create_list">Create list</string>
+    <string name="title_shopkeeper">shopKeeper</string>
+    <string name="text_sign_in_with_google">Sign in with Google</string>
+    <string name="text_remove">Remove</string>
+    <string name="title_list_items">List items:</string>
+    <string name="no_items_message">No items in list, add new items or select items from your favourites</string>
+    <string name="title_shops">Shops:</string>
+    <string name="no_shops_message">You currently have no lists in any shops. To create a list for a shop, locate the shop on the map, select it, and press the pencil icon to create a list for that shop</string>
+    <string name="no_favourites_message">You currently don\'t have any favourites for this shop. To add favourites, navigate to a list for this shop, and toggle the favourite switch to \'on\' on the item you want to favourite</string>
+    <string name="title_favourites">Favourites:</string>
+    <string name="title_user">User</string>
+    <string name="text_logout">Logout</string>
+    <string name="text_current_logged_in_user">Current logged in user:</string>
+    <string name="no_lists_message">You currently have no lists for this shop. To create a list, tap the pencil icon at the bottom of the screen</string>
+    <string name="title_lists">Lists:</string>
+    <string name="content_description_view_lists">View lists</string>
+    <string name="content_description_exit">Exit shop selection</string>
+    <string name="content_description_account_profile_picture">Account profile picture</string>
+    <string name="content_description_view_on_map">View on map</string>
+
+    <string name="no_internet_message">Not connected to the internet, data may fail to load, or take longer to load</string>
+    <string name="warning_connection_lost_message">Network connection lost</string>
+    <string name="warning_connection_losing_message">Network connection potentially lost</string>
+    <string name="warning_connection_unavailable_message">Network connection unavailable</string>
+    <string name="connection_available_message">Network connection available</string>
+
+    <string name="failed_to_remove_add_favourite_message">Failed to add/remove favourite</string>
+    <string name="failed_to_remove_list_message">Failed to remove list</string>
+    <string name="failed_to_remove_item_message">Failed to remove item from list</string>
+
+    <string name="failed_to_login_message">Failed to log in</string>
+    <string name="btn_text_delete">Delete</string>
+</resources>
