@@ -7,7 +7,9 @@ Project completed for CMP309 - Software Development for Mobile Devices
 - Using Google Firebase to authenticate users and store user data
 - Written in Java and using an MVVM structure
 
+## Features
 This app allows users to view a map of shops, select a shop, and then create shopping lists for that shop
+![GIF of user creating a list and adding items to it](https://github.com/[otto2048]/[shopKeeper-project]/blob/[main]/images/createList.gif?raw=true)
 
 Users can edit lists - by updating the list details, or by adding/removing items from the list
 
