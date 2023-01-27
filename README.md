@@ -8,8 +8,11 @@ Project completed for CMP309 - Software Development for Mobile Devices
 - Written in Java and using an MVVM structure
 
 ## Features
+<p align="center">
+  <img src="[your_relative_path_here_number_2_large_name](https://github.com/otto2048/shopKeeper-project/blob/main/images/createList.gif?raw=true)" width="350" alt="GIF of user creating a list and adding items to it">
+</p>
 This app allows users to view a map of shops, select a shop, and then create shopping lists for that shop
-![GIF of user creating a list and adding items to it](https://github.com/otto2048/shopKeeper-project/blob/main/images/createList.gif?raw=true)
+
 
 Users can edit lists - by updating the list details, or by adding/removing items from the list
 
