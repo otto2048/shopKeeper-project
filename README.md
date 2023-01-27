@@ -2,7 +2,7 @@
 
 Project completed for CMP309 - Software Development for Mobile Devices
 
-##Project Overview
+## Project Overview
 - An Android mobile application developed for API level 29
 - Using Google Firebase to authenticate users and store user data
 - Written in Java and using an MVVM structure
